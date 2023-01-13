@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 3996815621911155384}
   - component: {fileID: 1162537701644819557}
   m_Layer: 3
-  m_Name: Cube (194)
+  m_Name: ennemiz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
