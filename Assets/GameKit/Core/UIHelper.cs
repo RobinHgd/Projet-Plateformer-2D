@@ -94,7 +94,8 @@ public static class UIHelper
 		 headerStyle.alignment = TextAnchor.MiddleCenter;
 		 headerStyle.fontStyle = FontStyle.Bold;*/
 	}
-	
+	#if UNITY_EDITOR
+		
 	public static void PreShotDirty(string undoName, Object target)
 	{
 		if (EditorApplication.isPlaying) return;
@@ -131,4 +132,5 @@ public static class UIHelper
 		Handles.DrawLine(tPosition, tPosition + effectAngleA * range);
 		Handles.DrawLine(tPosition, tPosition + effectAngleB * range);
 	}
+#endif
 }
